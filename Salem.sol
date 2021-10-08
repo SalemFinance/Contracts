@@ -596,7 +596,7 @@ contract BEP20 is Context, IBEP20, Ownable {
     uint8 private _decimals;
 
     uint256 private MAXCAP;
-    uint256 constant MAXCAPSUPPLY = 5000 * (10 ** 18);
+    uint256 constant MAXCAPSUPPLY = 2500000 * (10 ** 18);
 
     /**
      * @dev Sets the values for {name} and {symbol}, initializes {decimals} with
